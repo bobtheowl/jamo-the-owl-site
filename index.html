@@ -3,16 +3,33 @@
 <head>
     <meta charset="utf-8">
     <title>Jamo the Owl</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
     <link href="css/jamotheowl.css" rel="stylesheet" />
 </head>
-<body>
-    <div id="container">
-        <h1>Jamo the Owl</h1>
+<body class="bg-info">
+    <div class="hero min-h-screen">
+        <div class="hero-overlay"></div>
+        <div class="hero-content text-neutral-content text-center">
+            <div class="max-w-lg">
+                <h1 class="mb-5 text-5xl font-bold">Jamo the Owl</h1>
+                <p class="mb-5">
+                    A children's book series about a small owl exploring his world and
+                    learning lessons along the way.
+                </p>
+                <a class="btn btn-info" href="./books.html">Books</a>
+                <a class="btn btn-info" href="./about.html">About</a>
+                <!--<a class="btn btn-info" href="./news.html">News</a>-->
+            </div>
+        </div>
     </div>
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/jamotheowl.js"></script>
 </body>
 </html>
